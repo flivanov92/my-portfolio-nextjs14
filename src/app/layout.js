@@ -1,4 +1,4 @@
-import { GlobalCss } from '@/ui/reset';
+import './global.css';
 
 export const metadata = {
   title: 'My portfolio',
@@ -8,7 +8,7 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang='en'>
-      <GlobalCss>{children}</GlobalCss>
+      <body>{children}</body>
     </html>
   );
 };
