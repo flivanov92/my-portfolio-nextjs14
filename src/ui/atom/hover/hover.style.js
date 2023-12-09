@@ -1,5 +1,4 @@
 'use client';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { styled } from 'styled-components';
 
